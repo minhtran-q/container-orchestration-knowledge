@@ -11,6 +11,7 @@
 <details>
   <summary>Cluster structure</summary>
   <br/>
-  ![](/images/k8s_structure.png)
+  
+  ![](images/k8s_structure.png)
   
 </details>
