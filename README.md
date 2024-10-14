@@ -89,8 +89,21 @@
 
   **How Ingress works:**
 
-  + **Ingress Resource:** Defines the rules for routing traffic. For example, you can specify that requests to example.com/api should be routed to one service, while requests to example.com/web go to another.
+  + **Ingress Resource:** Defines the set of rules for routing external traffic to services within the cluster.
   + **Ingress Controller:** A component that implements the Ingress resource. Popular Ingress controllers include **NGINX**.
+    
+</details>
+
+<details>
+  <summary>Ingress Controller</summary>
+  <br/>
+
+  An Ingress controller is a daemon running in a Pod that watches the `/ingresses` endpoint. The Ingress controller uses the configured set of rules to allow traffic into a service. Without an Ingress controller, the Ingress resource has no effect.
+
+  **Key Functions:**
+  + Reverse Proxy: Forwards client requests to the appropriate backend services.
+  + Load Balancing: Distributes incoming traffic across multiple backend services.
+  + SSL/TLS Termination: Manages SSL/TLS certificates and handles secure connections.
     
 </details>
 
