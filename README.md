@@ -81,7 +81,23 @@
 ### Ingress
 
 <details>
-  <summary>Ingress</summary>
+  <summary>What is Ingress</summary>
   <br/>
+
+  + Ingress is a resource that manages external access to services within a cluster, typically handling HTTP and HTTPS traffic.
+  + It acts as a gateway, providing a single entry point for external traffic and routing it to the services.
+
+  **How Ingress works:**
+
+  + **Ingress Resource:** Defines the rules for routing traffic. For example, you can specify that requests to example.com/api should be routed to one service, while requests to example.com/web go to another.
+  + **Ingress Controller:** A component that implements the Ingress resource. Popular Ingress controllers include **NGINX**.
+    
+</details>
+
+<details>
+  <summary>Ingress vs Loadbalancer</summary>
+  <br/>
+
+  
   
 </details>
