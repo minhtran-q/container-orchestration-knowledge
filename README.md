@@ -30,11 +30,11 @@
 
   + Additional Components
 
-  **Pods:** The smallest deployable units in Kubernetes, which can contain one or more containers.
-  **Services:** Define a logical set of pods and a policy to access them.
-  **Ingress:** Manages external access to services, typically HTTP.
-  **ConfigMaps and Secrets:** Store configuration data and sensitive information, respectively.
-  **Persistent Volumes (PV):** Provide persistent storage for pods.
+  1. **Pods:** The smallest deployable units in Kubernetes, which can contain one or more containers.
+  2. **Services:** Define a logical set of pods and a policy to access them.
+  3. **Ingress:** Manages external access to services, typically HTTP.
+  4. **ConfigMaps and Secrets:** Store configuration data and sensitive information, respectively.
+  5. **Persistent Volumes (PV):** Provide persistent storage for pods.
 
   ![](images/kubernetes-cluster-architecture.png)
   
