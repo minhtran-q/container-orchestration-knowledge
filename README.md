@@ -39,3 +39,15 @@
   ![](images/kubernetes-cluster-architecture.png)
   
 </details>
+
+<details>
+  <summary>Service</summary>
+  <br/>
+  
+</details>
+
+<details>
+  <summary>Ingress</summary>
+  <br/>
+  
+</details>
