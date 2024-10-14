@@ -39,12 +39,3 @@
   ![](images/kubernetes-cluster-architecture.png)
   
 </details>
-
-### Cluster structure
-<details>
-  <summary>Cluster structure</summary>
-  <br/>
-  
-  ![](images/k8s_structure.png)
-  
-</details>
